@@ -5,14 +5,15 @@
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .card {
   width: 100%;
   padding: 20px;
   display: flex;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: double black 4px;
   box-shadow: 0 1px 6px -2px #000;
   background-color: #fff;
   margin-bottom: 30px;
@@ -20,14 +21,15 @@ h1 {
 
 
 .card img {
-  width: 23vw;
-  height: 150px;
-  border-radius: 3px;
+  width: 21vw;
+  height: 200px;
+  border-radius: 10px;
+  border: solid black 2px;
   margin-right: 20px;
 }
 
 .name {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   display:flex;
   flex-direction: column;
   width: 50vw;
