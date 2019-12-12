@@ -15,9 +15,9 @@ class Followers extends React.Component {
     .then (res => {
       console.log("follower data", res.data);
       this.setState({
-            name: res.data.name,
-            img: res.data.avatar_url,
-            bio: res.data.bio,
+            // name: res.data.name,
+            // img: res.data.avatar_url,
+            // bio: res.data.bio,
          followers: res.data
       });
     })
