@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap');
+
+html body
+* {
+  font-family: 'Saira Condensed', sans-serif;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+   
+  background: #1752CE;
+background: -moz-linear-gradient(left, #1752CE 0%, #99F9D3 50%, #1752CE 100%);
+background: -webkit-linear-gradient(left, #1752CE 0%, #99F9D3 50%, #1752CE 100%);
+background: linear-gradient(to right, #1752CE 0%, #99F9D3 50%, #1752CE 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
