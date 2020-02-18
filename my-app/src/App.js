@@ -7,13 +7,11 @@ function App() {
 
   return (
 
-
     <div className="App">
 
-     <h1>GitHub User Card</h1>
+     <h1>MrLoweDev GitHub page</h1>
           <User  />
           <Followers />
-
 
     </div>
   );

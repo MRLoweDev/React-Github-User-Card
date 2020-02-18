@@ -5,8 +5,8 @@ const FollowersCard = ({followers, img}) => {
         <div className="card">
 
             <img src={img} alt="user"/>
-            <p className="name">Name: {followers}</p>
-            <p className="name">Bio {}</p>
+            <p className="name"> {followers}</p>
+            <p className="name">BIO {}</p>
 
         </div>
     )
